@@ -1,0 +1,49 @@
+{
+	"alumnos":
+	{
+		"franz":
+		{
+			"password":"123",
+			"ciudad":"aguascalientes",
+			"nombreCompleto":"franz rivera tellez",
+			"nacimiento":"2002",
+			"carrera":"IIA",
+			"calificaciones":
+			{
+				"calificacion1":"9",
+				"calificacion1":"8",
+				"calificacion1":"7",
+				"calificacion1":"6"
+			}
+		},
+		"virgilio":
+		{
+			"password":"pass",
+			"ciudad":"celaya",
+			"nombreCompleto":"virgilio murillo ochoa",
+			"nacimiento":"1999",
+			"carrera":"IIA",
+			"calificaciones":
+			{
+				"calificacion1":"10",
+				"calificacion1":"10",
+				"calificacion1":"10",
+				"calificacion1":"10"
+			}
+		},
+	},
+
+	"profesores":
+	{
+		"claudia":
+		{
+			"password":"clau123",
+			"alumnos":["virgilio"]
+		},
+		"calabrese":
+		{
+			"password":"cal123",
+			"alumnos":["virgilio","franz"]
+		},
+	}
+}
